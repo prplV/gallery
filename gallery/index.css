@@ -28,10 +28,11 @@ body{
 
 #a1{
     text-align: left;
+    left: 200px;
 }
 
 #a2{
-    text-align: right;
+    text-align: left;
 }
 
 .topleft {
@@ -45,7 +46,7 @@ body{
 .topright {
     position: absolute;
     top: 330px;
-    right: 20px;
+    left: 20px;
     font-size: 16px;
     font-weight: bold;
     color:wheat;
@@ -61,10 +62,11 @@ body{
 
 .brostop{
     border-radius: 10px;
-    border: 15px;
+    border: 18px;
     color:black;
     background:white;
-    font-size: 14px;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 .img_str_1{
@@ -115,4 +117,43 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
 
+}
+
+table{
+    margin: auto;
+    border: 2px solid #F2E8C9;
+    border-radius: 10px;
+    background-color: #F2E8C9;
+}
+
+tr{
+    text-align: center;
+}
+
+a:hover{
+    transition: 0.3s;
+    background-color: #c7b39b;
+}
+
+.momlook{
+    background-color: #F2E8C9;
+    position: absolute;
+    color: black;
+    border: 1px solid #c7b39b;
+    border-radius: 10px;
+    top: 100px;
+    right: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.ogo{
+    text-align: center;
+}
+
+li{
+    list-style: square;
 }
